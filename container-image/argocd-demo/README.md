@@ -1,8 +1,9 @@
 # Container image for `argocd-demo`
 
-Pull the image
+The image is hosted in several registries
 ```
 podman pull docker.io/yahoon/argocd-demo:v1
-docker pull ghcr.io/yahoon/argocd-demo:v1
+podman pull ghcr.io/yahoon/argocd-demo:v1
+podman pull  quay.io/yahoon/argocd-demo:v1
 ```
 
